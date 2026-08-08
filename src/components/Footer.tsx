@@ -99,14 +99,14 @@ export function Footer({ onNavigate }: Props) {
           <p className="text-[11px] text-brand-100/60 mb-2">Dikembangkan oleh</p>
           <div className="font-display font-bold text-white tracking-wide text-sm">GIGA INNOVATION</div>
           <p className="text-[11px] text-brand-100/60 italic mt-0.5">"Inovasi Untuk Solusi Terbaik"</p>
-          <a
-            <MessageCircle className="h-3 w-3" /> 081329200985
-            target="_blank"
-            rel="noreferrer"
-            className="mt-1.5 text-[11px] text-accent-400 hover:text-accent-500 font-medium inline-flex items-center gap-1"
-          >
-            <MessageCircle className="h-3 w-3" /> 081329200985
-          </a>
+         <a
+  href="https://wa.me/6281329200985"
+  target="_blank"
+  rel="noreferrer"
+  className="mt-1.5 text-[11px] text-accent-400 hover:text-accent-500 font-medium inline-flex items-center gap-1"
+>
+  <MessageCircle className="h-3 w-3" /> 081329200985
+</a>
         </div>
       </div>
     </footer>
