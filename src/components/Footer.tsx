@@ -74,17 +74,17 @@ export function Footer({ onNavigate }: Props) {
               <li className="flex items-start gap-2.5">
                 <MessageCircle className="h-4 w-4 mt-0.5 text-accent-400" />
                 <a
-                  href={`https://wa.me/${s?.contact_whatsapp ?? '6281329757566'}`}
+                  href="https://wa.me/6281366916828"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-accent-400"
                 >
-                  {s?.contact_whatsapp ?? '081329757566'}
+                  081366916828
                 </a>
               </li>
               <li className="flex items-start gap-2.5">
                 <Mail className="h-4 w-4 mt-0.5 text-accent-400" />
-                <span>{s?.contact_email ?? 'lapormasrtgabusan@gmail.com'}</span>
+                <span>lapormasrtgabusan@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -100,7 +100,7 @@ export function Footer({ onNavigate }: Props) {
           <div className="font-display font-bold text-white tracking-wide text-sm">GIGA INNOVATION</div>
           <p className="text-[11px] text-brand-100/60 italic mt-0.5">"Inovasi Untuk Solusi Terbaik"</p>
           <a
-            href="https://wa.me/6281329200985"
+            <MessageCircle className="h-3 w-3" /> 081329200985
             target="_blank"
             rel="noreferrer"
             className="mt-1.5 text-[11px] text-accent-400 hover:text-accent-500 font-medium inline-flex items-center gap-1"
